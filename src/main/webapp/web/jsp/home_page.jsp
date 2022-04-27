@@ -13,6 +13,9 @@
 <a href="/users">
     Список пользователей
 </a>
+<a href ="/requests">
+    Запросы помощи
+</a>
 <c:if test="${role == 'ADMIN'}">
     <a href="/admin">
         Админ панель
